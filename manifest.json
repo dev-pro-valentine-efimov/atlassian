@@ -1,0 +1,16 @@
+{
+  "name": "Atlassian tasks to git / report",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Just for personal use",
+  "content_scripts": [
+    {
+      "matches": ["https://schoolcnxt.atlassian.net/*"],
+      "js": ["js/jquery-2.2.0.min.js", "js/main.js"]
+    }
+  ],
+  "browser_action":	{
+    "default_icon": "icon.png"
+  }
+
+}
